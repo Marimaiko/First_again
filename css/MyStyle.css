@@ -28,13 +28,8 @@
   }
 
 
-  body {
-    background-color: black;
-    font-family: cursive;
-  }
-  
+  /*----------------------------------------------------------------------------------------------------- */
 
-   /* ----------------------------------------------------------------------------------------------*/
   .glow {
     font-size: 50px;
     color: #fff;
@@ -53,8 +48,83 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+    /*----------------------------------------------------------------------------------------------------- */
 
+  .column{
+    color: rgba(245, 239, 239, 0.616);
+    float: left;
+    padding: 10px;
+  }
+
+  /* Left and right column */
+.column.side {
+  float: right;
+  padding: 5px;
+  width: 38%;
+}
+
+/* Middle column */
+.column.main {
+  float: left;
+  padding: 40px;
+  width: 55%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ /* body {
+    background-color: rgba(185, 20, 20);
+
+  }*/
+  
+
+  .listas { 
+    color: rgb(156, 156, 156);
+    font-family: cursive;
+
+  }
+
+  .listas h2 {
+    text-align: center;
+  }
+
+  .listas ul {
+    text-align: justify;
+    margin-left: 600px;
+  }
+
+   /* ----------------------------------------------------------------------------------------------*/
+
+   div.gallery {
+    margin: 5px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /*div.desc {
+    padding: 15px;
+    text-align: center;
+  }*/
    /* ---------------------------------------------------------------------------------------------------*/
+
+
+
   .footer {
     position: static;
     left: 0;
