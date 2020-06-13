@@ -1,4 +1,7 @@
+
   
+    /*----------------------------------------------------------------------------------------------------- */
+
   .header {
     background-color: #333333;
     padding: 20px;
@@ -71,15 +74,21 @@
 
    /*----------------------------------------------------------------------------------------------------- */
 
+   .invisible {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100px;
+
+   }
 
   .column{
     color: rgba(245, 239, 239, 0.616);
    /* float: left;*/
     padding: 15px;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: rgb(58, 3, 70);
     display: inline-block;
-    border-top: 4px solid rgb(0, 0, 0);
+    border-top: px solid rgb(0, 0, 0);
     border-bottom:4px solid rgb(0, 0, 0) ;
   }
 
@@ -111,7 +120,10 @@
    /* ----------------------------------------------------------------------------------------------*/
 
  body {
-    background-color: rgb(92, 57, 92);
+    /* background-color: rgb(92, 57, 92); */
+    height: 3000px;
+    background: linear-gradient(141deg, #880fb8 25%, #9a4fe0 51%, #2d0fd4 75%);
+    
   }
   
    /* ----------------------------------------------------------------------------------------------*/
@@ -119,6 +131,7 @@
     color: rgb(202, 199, 199);
     font-family: cursive;
     margin-top: 100px;
+    background-color: rgb(58, 3, 70);
 
   }
 
@@ -163,11 +176,15 @@
 
 
   .footer {
-    position: static;
+    position: sticky;
     width: 100%;
     background-color: rgb(43, 17, 68);
     color: white;
     text-align: center;
     margin-bottom: 0px;
     height: 30px;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
